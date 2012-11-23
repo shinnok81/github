@@ -1,0 +1,66 @@
+#promobar {
+	width: 300px;
+	height: 400px;
+	right:0px;
+	top:-380px;
+	background-color: #333333;
+	position:absolute;
+	border-radius: 0 0 0 15px;
+	box-shadow: -2px 0px 1px #111;
+}
+
+#promoslide {
+	position: absolute;
+	bottom:0px;
+	left:10px;
+	width: 280px;
+	height: 20px;
+	border-top: 1px dotted #6689ee;
+}
+#promoslide p{
+	float:left;
+	margin-top: 0;
+	text-transform: uppercase;
+	color: grey;
+	font-size: 12px;
+	font-family: arial;
+	color: red;
+	top: 2px;
+}
+#promoslide .mostra, #promoslide .nascondi {
+	color: #6689ee;
+	cursor: pointer;
+}
+#promoslide .mostra:hover, #promoslide .nascondi:hover {
+	border-bottom:1px dotted #6689ee;
+}
+.promobox {
+	width: 280px;
+	height: 55px;
+	margin-top:5px;
+	margin-left: 10px;
+	border-bottom: 1px solid grey;
+}
+.promobox .promotitle {
+	font-size: 14px;
+	font-family: Arial;
+	color: #6689ee;
+	height: 15px;
+}
+.promobox .promocontent {
+	font-size: 12px;
+	font-family: 12px;
+	color: grey;
+	height: 25px;
+	overflow: hidden;
+}
+.promobox .promolink {
+	font-size: 10px;
+	font-family:arial;
+	color: grey;
+	font-style: italic;
+	height: 10px;
+}
+.promobox .promolink:hover {
+	border-bottom: 1px dotted #6689ee;
+}

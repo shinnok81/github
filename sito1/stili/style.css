@@ -1,0 +1,82 @@
+
+body {
+    background-color: #c8c8c8;
+}
+a {
+    color: #6689ee;
+    text-decoration: underline;
+}
+
+
+
+/*  ----------HEADER E NAVIGATION----------- */
+#header {
+    margin: 0 auto;
+    width: 960px;
+    height: 115px;
+    background-color: white;
+    background-image: url(../immagini/sfondi/header/header.png);
+    background-repeat: repeat-x;
+    border-radius: 20px 20px 0 0;
+}
+#logo {
+    position: absolute;
+}
+.logomb {
+    position: absolute;
+    margin-left: 550px;
+}
+
+#navigazione {
+    margin: 0 auto;
+    width: 960px;
+    height: 120px;
+    background-color: white;
+    position: relative;
+
+
+}
+#navimenu {
+    margin-left: 15px;
+    position: relative;
+    height: 35px;
+} 
+#navimenu li {
+    list-style: none;
+    float: left;
+    text-decoration: none;
+    margin-top: 15px;
+    border-right: 1px solid gray;
+}
+
+#navimenu li.lastbord {
+    border: none;
+}
+
+#navimenu li a {
+    text-decoration: none;
+    color: #3442ab;
+    padding: 0 8px;
+    font-family: Arial;
+    font-size: 14px;
+}
+#navimenu li a:hover {
+    text-decoration: overline;
+    
+}
+#navimenu li ul li a {
+    color:grey;
+    
+}
+
+/* --------------HEADER AND NAVIGATION END ----------------*/
+/*------------------CONTAINER CONTENT -----------------------*/
+.contenitore {
+    background-color: #333333;
+    height: 450px;
+    margin-top:10px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 1px #111;
+}
+
+

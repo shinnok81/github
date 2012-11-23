@@ -1,0 +1,99 @@
+
+	.navimenu li {
+		width: 120px;
+		height: 120px;
+		float: left;
+	}
+	.imgmenu {
+		position: absolute;
+		width: 120px;
+		height: 120px;
+	}
+	.sub-navi{
+		width: 480px;
+		height: 240px;
+		background-color: #333;
+		margin-top:120px;
+		border-radius: 10px 10px 10px 10px;
+		box-shadow: 1px 1px 3px #111;
+		position: absolute;
+		display:none;
+		/* margin-left:-9999%; */
+	}
+	.sub-navititle{
+		width: 300px;
+		height: 40px;
+		margin-left:165px;
+		margin-bottom:0px;
+		text-align: center;
+		display: table;
+
+	}
+	.navtitle {
+		display: table-cell;
+		height: 40px;
+		vertical-align: middle;
+		font-family: Arial;
+		font-size: 16px;
+		color: #6689ee;
+		position: relative;
+		margin-top: 10px;
+	}
+	.sub-navisx{
+		width: 150px;
+		height: 180px;
+		margin-left:15px;
+		margin-top:10px;
+		border-right: 1px solid grey;
+		float:left;
+	}
+	.sub-navictr{
+		width: 150px;
+		height: 180px;
+		margin-left:165px;
+		margin-top:10px;
+		border-right: 1px solid grey;
+	}
+	.sub-navidx{
+		width: 150px;
+		height: 180px;
+		margin-left:315px;
+		margin-top:-185px;
+		border-right: 1px solid grey;
+	}
+	.navlist li {
+		width: auto;
+		float: none;
+		margin-top: 5px;
+		height: auto;
+	}
+	.navlist {
+		margin-left: 10px;
+	}
+	.navlist li a {
+		font-size: 12px;
+		font-family: Arial;
+		color: #999;
+		text-decoration: none;
+		border-bottom: 1px dotted #6689ee;
+	}
+	.navlist li a:hover {
+		color: #6689ee;
+	}
+	.navimenu li:hover .sub-navipos1 {
+		margin-left: 0;
+		display: block;
+	}
+	.navimenu li:hover .sub-navipos2 {
+		margin-left: -360px;
+		display: block;
+	}
+	.sub-navi p{
+		font-size: 12px;
+		color: grey;
+		text-align: center;
+		padding: 5px;
+	}
+	p,a,h1,h2,h3,h4,h5,h6 {
+		font-family: Arial;
+	}
